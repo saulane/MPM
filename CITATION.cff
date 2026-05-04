@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "MPM: Mutual Pair Merging for Efficient Vision Transformers"
+message: "If you use MPM, please cite the paper."
+type: software
+authors:
+  - family-names: Ravé
+    given-names: Simon
+  - family-names: Rasti
+    given-names: Pejman
+  - family-names: Rousseau
+    given-names: David
+repository-code: "https://github.com/saulane/MPM"
+url: "https://arxiv.org/abs/2604.05718"
+license: MIT
+version: "0.1.0"
+date-released: "2026-05-04"
+preferred-citation:
+  type: conference-paper
+  title: "MPM: Mutual Pair Merging for Efficient Vision Transformers"
+  authors:
+    - family-names: Ravé
+      given-names: Simon
+    - family-names: Rasti
+      given-names: Pejman
+    - family-names: Rousseau
+      given-names: David
+  conference:
+    name: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+  year: 2026
+  url: "https://arxiv.org/abs/2604.05718"

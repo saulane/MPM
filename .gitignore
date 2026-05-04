@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Local data and model artifacts
+checkpoints/
+ckpts/
+datasets/
+runs/
+outputs/
+segmaps/
+
+# Experiment and notebook clutter
+.ipynb_checkpoints/
+.pytest_cache/
+.ropeproject/
+*.log
+quick_test_*.py
+
+# OS/editor files
+.DS_Store

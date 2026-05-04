@@ -1,0 +1,11 @@
+MPM includes code adapted from Segmenter:
+
+  Segmenter: Transformer for Semantic Segmentation
+  Robin Strudel, Ricardo Garcia, Ivan Laptev, Cordelia Schmid
+  https://github.com/rstrudel/segmenter
+
+The original Segmenter repository is distributed under the MIT License:
+
+  Copyright (c) 2021 Robin Strudel
+  Copyright (c) INRIA
+

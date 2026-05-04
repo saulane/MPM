@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mpm"
+version = "0.1.0"
+description = "Mutual Pair Merging for efficient Vision Transformers"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Simon Ravé" },
+  { name = "Pejman Rasti" },
+  { name = "David Rousseau" },
+]
+dependencies = [
+  "click>=8.1",
+  "einops>=0.8",
+  "numpy>=1.23",
+  "Pillow>=10",
+  "pyyaml>=6",
+  "requests>=2.31",
+  "setuptools>=68,<81",
+  "timm>=0.4.12",
+  "torch>=2.0",
+  "torchvision>=0.15",
+  "tqdm>=4.66",
+]
+
+[project.scripts]
+mpm-download-segmenter-model = "mpm.scripts.download_segmenter_model:main"
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2604.05718"
+Repository = "https://github.com/saulane/MPM"
+Segmenter = "https://github.com/rstrudel/segmenter"
+
+[tool.setuptools.packages.find]
+include = ["mpm*", "segm*"]
