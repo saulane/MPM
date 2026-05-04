@@ -19,7 +19,6 @@ segmaps/
 .pytest_cache/
 .ropeproject/
 *.log
-quick_test_*.py
 
 # OS/editor files
 .DS_Store

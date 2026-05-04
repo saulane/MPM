@@ -25,6 +25,6 @@ preferred-citation:
     - family-names: Rousseau
       given-names: David
   conference:
-    name: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    name: "IEEE/CVF Conference on Computer Vision and Pattern Recognition - FINDINGS Track (CVPRF)"
   year: 2026
   url: "https://arxiv.org/abs/2604.05718"
